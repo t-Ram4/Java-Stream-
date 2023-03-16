@@ -1,0 +1,27 @@
+3.1 Operating on streams
+------------------------
+Map 
+-----
+map() method takes a Function and transforms the elements of stream into another.
+Example, a map might map a stream of numbers to their stream of squares.
+
+filter
+------
+filter() method takes a Predicate and tests each element in the stream pipeline,
+and produce a stream of elements that pass the test.
+
+
+reduce
+--------
+ It reduces the stream into a single value. Since it is a terminal operation, stream will be closed afterwards.
+count() is an example of reduce operation.
+
+Demos
+1.Demo1
+
+
+ 3.2 Sorting 
+
+Demos
+1.Demo1--basic sorting natural order
+2.Demo2--Sorting using comparable

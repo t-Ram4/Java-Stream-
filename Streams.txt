@@ -1,0 +1,22 @@
+		2.Streams
+		----------
+
+		2.1 What is a stream?
+		A stream is a sequence of data that can be processed with operations.
+
+		Think of a stream as a way to operate on data that is flowing from a source (array/arraylist etc) through 
+		the stream. 
+
+		Note:
+		Intermediate operations on stream always produce another stream and that is how 
+		we can chain multiple operations together to manipulate the data as it flows by in stream.
+
+		2.2 How to create a stream?
+ 		1.Create a stream from Collection
+ 		2.Create a stream with  Stream.of()
+ 		3.Create a stream from an Array Arrays.stream()
+ 
+
+Demos
+1.Demo1--basic example
+2.Demo2--stream creation
